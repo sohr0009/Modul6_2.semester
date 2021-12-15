@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tabelwidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>831</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>50</number>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Kunde </string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>CVR</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="noterror">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>280</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 170, 115);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>80</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Navn på kunde (eks Nordea): </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>260</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(219, 0, 40);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>140</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>CVR:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="navn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;.AppleSystemUIFont&quot;;
+color: white;
+
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>user</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>181</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(0, 138, 190);
+
+background-color: rgb(0, 0, 0,200);
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logud_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>530</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton {
+	color: rgb(255, 255, 255);
+	
+	background-color: rgb(192, 94, 85);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+
+	background-color: rgb(220, 109, 99);
+
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Log ud</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>43</x>
+      <y>70</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Scrum Master</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="projekter_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>200</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Projekt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="konsulenter_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>250</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Konsulent</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registreringer_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>350</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Beregn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kunder_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>300</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 138, 190);
+color: rgb(255, 255, 255);
+font: 16pt &quot;.AppleSystemUIFont&quot;;
+border-radius: 10px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Kunde</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hjem_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>150</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Hjem</string>
+    </property>
+   </widget>
+   <zorder>Frame</zorder>
+   <zorder>tabelwidget</zorder>
+   <zorder>noterror</zorder>
+   <zorder>label</zorder>
+   <zorder>error</zorder>
+   <zorder>label_2</zorder>
+   <zorder>navn</zorder>
+   <zorder>logud_knap</zorder>
+   <zorder>label_3</zorder>
+   <zorder>projekter_knap</zorder>
+   <zorder>konsulenter_knap</zorder>
+   <zorder>registreringer_knap</zorder>
+   <zorder>kunder_knap</zorder>
+   <zorder>hjem_knap</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

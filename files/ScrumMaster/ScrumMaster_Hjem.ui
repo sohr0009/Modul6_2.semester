@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="navn_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;.AppleSystemUIFont&quot;;
+color: white;
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Seneste indlæg: </string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tabelwidget">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>40</y>
+      <width>821</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(246, 246, 246);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>140</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Medarbejder</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Besked</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dato</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="registreringer_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>350</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Beregn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="projekter_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>200</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Projekt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kunder_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>300</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Kunde</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>43</x>
+      <y>70</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Scrum Master</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="navn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;.AppleSystemUIFont&quot;;
+color: white;
+
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>user</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-20</y>
+      <width>1061</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(0, 138, 190);
+
+background-color: rgb(0, 0, 0,200);
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hjem_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>150</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 138, 190);
+color: rgb(255, 255, 255);
+font: 16pt &quot;.AppleSystemUIFont&quot;;
+border-radius: 10px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Hjem</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="konsulenter_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>250</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 91, 91);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	background-color: rgb(109, 109, 109);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Konsulent</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logud_knap">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>530</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton {
+	color: rgb(255, 255, 255);
+	
+	background-color: rgb(192, 94, 85);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+
+	background-color: rgb(220, 109, 99);
+
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Log ud</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="besked_input">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>520</y>
+      <width>631</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_knap">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>520</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 138, 190);
+	font: 16pt &quot;.AppleSystemUIFont&quot;;
+	border-radius: 10px;
+}
+
+QPushButton:Hover {
+
+	
+	background-color: rgb(8, 166, 233);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+   <zorder>Frame</zorder>
+   <zorder>navn_2</zorder>
+   <zorder>tabelwidget</zorder>
+   <zorder>registreringer_knap</zorder>
+   <zorder>projekter_knap</zorder>
+   <zorder>kunder_knap</zorder>
+   <zorder>label_3</zorder>
+   <zorder>navn</zorder>
+   <zorder>hjem_knap</zorder>
+   <zorder>konsulenter_knap</zorder>
+   <zorder>logud_knap</zorder>
+   <zorder>besked_input</zorder>
+   <zorder>send_knap</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
